@@ -42,7 +42,7 @@
 /* Bem Vindo/Sobre  */
 .about{
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 80vh;
     grid-gap: 5px;
 }
@@ -54,8 +54,12 @@
 .album{
     display: grid;
     grid-template-columns: repeat(4,1fr); 
-    grid-template-rows: repeat(2, 100px);
+    grid-template-rows: repeat(2, 200px);
 }
-.photos{
+.socialMidia{
+    display: grid;
+    grid-template-columns: repeat(3,0.5fr);
+    grid-template-rows: repeat(2, 20px);
+    grid-gap: 100px;
 
 }

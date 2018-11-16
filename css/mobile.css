@@ -1,7 +1,12 @@
 @media only screen and (max-width: 768px){
-    
+
+    .navBar{
+        position: fixed;
+        width: 100%;
+    }
+
     #logoBack{
-        height: 600px;
+        height: 70vh;
     }
     /* Icons */
     .icons{

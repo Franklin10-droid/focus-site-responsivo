@@ -1,14 +1,13 @@
-
-/* declarando variáveis */
 *{
     display: grid;
     margin: 0;
-    padding: auto;
+    padding: 0;
     box-sizing: border-box;
     text-align: center;
     text-decoration: inherit;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+/* declarando variáveis */
 :root{
     --cor1: #0F3;
     --cor2: #0DD;
@@ -18,9 +17,22 @@
 }
 .navBox{
     background-color: var(--cor2);
+    cursor: pointer;
 }
-#logoBack{
+/* #logoBack{
     background-color: var(--cor1);
+} */
+p{
+    color:white;
+}
+.parallax{
+    background-image: url("../content/fuji.jpg");
+    min-height: 100vh;
+ 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .iconPhr{
     background-color: var(--cor4);

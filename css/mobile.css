@@ -15,8 +15,9 @@
     /* Fotos */
     .album{
         grid-template-rows: repeat(4,150px);
-        grid-template-columns: repeat(2,auto);
+        grid-template-columns: repeat(2,0.5fr);
     }
+    
 
     /* Redes sociais */
     .socialMidia{

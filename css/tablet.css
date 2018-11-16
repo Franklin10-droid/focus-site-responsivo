@@ -1,6 +1,54 @@
 @media only screen and (min-width:769px) and (max-width:1023px){
-    body{
-        background-color: black
+  
+    /* Barra de navegação */
+    .navBar{
+        position: fixed;
+        width: 100%;
+        grid-template-columns: repeat(4,auto); 
+        grid-template-rows: 30px;
     }
-    
+
+    /* Logo Com Background */
+    #logoBack{
+        width: 100%;
+        height: 90vh;
+        padding: 10px;
+    }
+
+    /* Frases/Icones */
+    .icons{
+        grid-template-rows: repeat(2,100px);
+        grid-template-columns: repeat(2,50fr);
+    }
+
+    /* Bem Vindo/Sobre  */
+    .about{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 80vh;
+        grid-gap: 5px;
+    }
+
+    /* Coletânia de Fotos */
+    .album{
+        grid-template-columns: repeat(4,1fr); 
+        grid-template-rows: repeat(2, 200px);
+    }
+
+    /* Links para Contato */
+
+    .socialMidia{
+        grid-template-columns: repeat(3,auto);
+        grid-template-rows: repeat(2,100px);
+        grid-gap: 30px;
+        margin: 0 30px 0 30px;  
+    }
+    .socialLink:nth-child(1){
+        grid-row: 3/2;
+    }
+    .socialLink:nth-child(2){
+        grid-row: 3/2;
+    }
+    .socialLink:nth-child(3){
+        grid-row: 3/2;
+    }
 }

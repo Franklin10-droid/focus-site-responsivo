@@ -12,14 +12,14 @@
     --cor2: #0DD;
     --cor3: #FF0F;
     --cor4: #E2E;
-    --cor5: #AA0;
+    --cor5: rgba(90, 90, 90, 0.767);
 }
 .navBox{
     background-color: var(--cor2);
     cursor: pointer;
 }
 .parallax{
-    background-image: url("../content/parallaxImg.jpg");
+    background-image: url("../images/parallaxImg.jpg");
     min-height: 100vh;
  
     background-attachment: fixed;
@@ -37,6 +37,14 @@
 .photos img{
     width: 100%;
     height:100%;
+}
+#mostrarImgDiv{
+    position: fixed;
+    width: 100%;
+    height:100%;
+    z-index: 10;
+    opacity: 0.8;
+    background: var(--cor5);
 }
 .socialLink{
     background-color: var(--cor4);

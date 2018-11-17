@@ -39,7 +39,7 @@
     height:100%;
 }
 #mostrarImgDiv{
-    position: fixed;
+    position: absolute;
     width: 100%;
     height:100%;
     z-index: 10;

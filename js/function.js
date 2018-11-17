@@ -22,6 +22,4 @@ $(document).ready(function(){
         $("html,body").animate({                         
             scrollTop: $(".socialMidia").offset().top},"slow"); 
     });
-    
- 
 })

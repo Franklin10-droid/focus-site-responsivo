@@ -1,13 +1,16 @@
 @media only screen and (min-width:769px) and (max-width:1023px){
   
     /* Barra de navegação */
-    .navBar{
+    .navBarNoMenu{
+        display: grid;
         position: fixed;
         width: 100%;
         grid-template-columns: repeat(4,auto); 
         grid-template-rows: 30px;
     }
-
+    .dropdown{
+        display: none;
+    }
     /* Logo Com Background */
     #logoBack{
         width: 100%;
@@ -16,12 +19,14 @@
 
     /* Frases/Icones */
     .icons{
+        display: grid;
         grid-template-rows: repeat(2,100px);
         grid-template-columns: repeat(2,50fr);
     }
 
     /* Bem Vindo/Sobre  */
     .about{
+        display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 80vh;
         grid-gap: 5px;
@@ -29,6 +34,7 @@
 
     /* Coletânia de Fotos */
     .album{
+        display: grid;
         grid-template-columns: repeat(4,1fr); 
         grid-template-rows: repeat(2, 200px);
     }
@@ -36,6 +42,7 @@
     /* Links para Contato */
 
     .socialMidia{
+        display: grid;
         grid-template-columns: repeat(3,auto);
         grid-template-rows: repeat(2,100px);
         grid-gap: 30px;

@@ -1,5 +1,4 @@
 *{
-    display: grid;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,20 +12,14 @@
     --cor2: #0DD;
     --cor3: #FF0F;
     --cor4: #E2E;
-    --cor5: #D00;
+    --cor5: #AA0;
 }
 .navBox{
     background-color: var(--cor2);
     cursor: pointer;
 }
-/* #logoBack{
-    background-color: var(--cor1);
-} */
-p{
-    color:white;
-}
 .parallax{
-    background-image: url("../content/fuji.jpg");
+    background-image: url("../content/parallaxImg.jpg");
     min-height: 100vh;
  
     background-attachment: fixed;
@@ -34,6 +27,7 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .iconPhr{
     background-color: var(--cor4);
 }
@@ -45,5 +39,5 @@ p{
     height:100%;
 }
 .socialLink{
-    background-color: var(--cor5);
+    background-color: var(--cor4);
 }

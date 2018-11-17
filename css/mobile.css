@@ -4,28 +4,40 @@
         position: fixed;
         width: 100%;
     }
-
+    .navBarNoMenu{
+        display: none;
+    }
+    .btnMenu{
+        width: 100%;
+    }
+    #dropdownInMenu{
+        display: grid;
+        grid-template-rows:repeat(4,30px);
+        grid-template-columns:auto;
+    }
     #logoBack{
-        height: 70vh;
+        height: 90vh;
     }
     /* Icons */
     .icons{
+        display: grid;
         grid-template-rows: repeat(4,100px);
     }
     /* Sobre */
     .about{
+        display: grid;
         grid-template-rows: repeat(2,350px);
     }
 
     /* Fotos */
     .album{
+        display: grid;
         grid-template-rows: repeat(4,150px);
         grid-template-columns: repeat(2,0.5fr);
     }
-    
-
     /* Redes sociais */
     .socialMidia{
+        display: grid;
         grid-template-columns: repeat(2,auto);
         grid-template-rows: repeat(3,100px);
     }

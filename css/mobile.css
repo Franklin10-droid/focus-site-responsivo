@@ -8,8 +8,12 @@
         display: none;
     }
     .btnMenu{
-        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 30px;
+        background-color: var(--cor3);
     }
+    
     #dropdownInMenu{
         display: grid;
         grid-template-rows:repeat(4,30px);
@@ -17,6 +21,13 @@
     }
     #logoBack{
         height: 90vh;
+    }
+    .parallax h1{
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+        letter-spacing: 8px;
+        left: 44%;
+        transform: translate(-50% , -55%);
     }
     /* Icons */
     .icons{

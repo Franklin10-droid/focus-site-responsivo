@@ -8,12 +8,13 @@
 }
 /* declarando variáveis */
 :root{
-    --cor1: #0F3;
-    --cor2: #0DD;
-    --cor3: #FF0F;
-    --cor4: #E2E;
-    --cor5: rgba(90, 90, 90, 0.767);
+    --cor1: #B3BFB8;
+    --cor2: #6E7062;
+    --cor3: #C05746;
+    --cor4: #A2E3C4;
+    --cor5: #F0F7F4;
 }
+
 .navBox{
     background-color: var(--cor2);
     cursor: pointer;
@@ -21,18 +22,33 @@
 .parallax{
     background-image: url("../images/parallaxImg.jpg");
     min-height: 100vh;
- 
+    position: relative;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: -1;
+}
+.parallax h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    font-size: 10vh;
+    padding: 20px;
+    letter-spacing: 35px;
+    background-color: var(--cor5);
+    mix-blend-mode: screen; /* vaza o texto */
 }
 
+i{
+    color: var(--cor5);
+}
 .iconPhr{
-    background-color: var(--cor4);
+    background-color: var(--cor3);
 }
 .aboutMe{
-    background-color: var(--cor3);
+    background-color: var(--cor5);
 }
 .photos img{
     width: 100%;
@@ -47,5 +63,5 @@
     background: var(--cor5);
 }
 .socialLink{
-    background-color: var(--cor4);
+    background-color: var(--cor1);
 }

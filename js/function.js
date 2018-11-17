@@ -1,9 +1,10 @@
-
-
-
-
 //inciar o jQuery
 $(document).ready(function(){
+
+    $("div#dropdownInMenu").hide(0);
+    $("a.btnMenu").click(function(){
+        $("div#dropdownInMenu").slideToggle(1000);
+    })
     //Scroll on click. NavBar
     $("a#navBox1").click(function(){ 
         $("html,body").animate({                         
@@ -21,4 +22,6 @@ $(document).ready(function(){
         $("html,body").animate({                         
             scrollTop: $(".socialMidia").offset().top},"slow"); 
     });
+    
+ 
 })

@@ -8,13 +8,19 @@
         display: none;
     }
     .btnMenu{
+        cursor: pointer;
         display: grid;
         grid-template-columns: 100%;
         grid-template-rows: 30px;
         background-color: var(--cor3);
+        transition-duration: 150ms;
     }
-    
+    .btnMenu:hover{
+        color: var(--cor3);
+        background-color: var(--cor5);
+    }
     #dropdownInMenu{
+        cursor: pointer;
         display: grid;
         grid-template-rows:repeat(4,30px);
         grid-template-columns:auto;

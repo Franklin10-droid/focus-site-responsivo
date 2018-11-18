@@ -9,7 +9,7 @@
 /* declarando variáveis */
 :root{
     --cor1: #B3BFB8;
-    --cor2: #6E7062;
+    --cor2: rgb(73, 73, 71);
     --cor3: #C05746;
     --cor4: #A2E3C4;
     --cor5: #F0F7F4;
@@ -18,6 +18,12 @@
 .navBox{
     background-color: var(--cor2);
     cursor: pointer;
+    color:var(--cor5);
+    transition-duration: 150ms;
+}
+.navBox:hover{
+    background-color: var(--cor5);
+    color:var(--cor2);
 }
 .parallax{
     background-image: url("../images/parallaxImg.jpg");
@@ -41,11 +47,23 @@
     mix-blend-mode: screen; /* vaza o texto */
 }
 
-i{
+i#iconInicio,#iconFim{
     color: var(--cor5);
 }
 .iconPhr{
-    background-color: var(--cor3);
+    background-color: var(--cor3);   
+}
+.frasesIcon{
+    color: var(--cor5);
+}
+#iconInicio{
+    margin-top: 15px;
+}
+#iconFim{
+    margin-top: 15px;
+}
+.iconDescr{
+    color:var(--cor2);;
 }
 .aboutMe{
     background-color: var(--cor5);
@@ -64,4 +82,10 @@ i{
 }
 .socialLink{
     background-color: var(--cor1);
+}
+#copyrightFooter{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+
 }

@@ -5,9 +5,9 @@ $(document).ready(function(){
     $("a.btnMenu").click(function(){
         $("div#dropdownInMenu").slideToggle(700);
     })
-
+    //Ao clicar em qualquer parte da pág esconde o menu
     $("div.pagInteira").click(function(){
-        $("div#dropdownInMenu").slideToggle(400);
+        $("div#dropdownInMenu").slideUp(500);
     })
     //Scroll on click. NavBar
     $("a#navBox1").click(function(){ 

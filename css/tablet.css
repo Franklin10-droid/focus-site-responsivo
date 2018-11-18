@@ -38,18 +38,21 @@
     /* Coletânia de Fotos */
     .album{
         display: grid;
+        grid-template-rows: repeat(4, 30vh);
         grid-template-columns: repeat(2,1fr); 
-        grid-template-rows: repeat(4, 200px); 
+        grid-gap: 8px;
     }
 
     /* Links para Contato */
 
-    .socialMidia{
+    .socialMedia{
         display: grid;
         grid-template-columns: repeat(3,auto);
         grid-template-rows: repeat(2,100px);
-        grid-gap: 30px;
-        margin: 0 30px 0 30px;  
+        grid-gap: 30px; 
+    }
+    .socialLink{
+        margin: 0 30px 0 30px; 
     }
     .socialLink:nth-child(1){
         grid-row: 3/2;

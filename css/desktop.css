@@ -6,7 +6,9 @@
         width: 100%;
         grid-template-columns: repeat(4,auto); 
         grid-template-rows: 30px;
-        
+    }
+    .btnMenu{
+        display: none;
     }
     .dropdown{
         display: none;

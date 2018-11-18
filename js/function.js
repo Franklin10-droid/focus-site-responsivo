@@ -1,9 +1,13 @@
 //inciar o jQuery
 $(document).ready(function(){
-
+    
     $("div#dropdownInMenu").hide(0);
     $("a.btnMenu").click(function(){
-        $("div#dropdownInMenu").slideToggle(1000);
+        $("div#dropdownInMenu").slideToggle(700);
+    })
+
+    $("div.pagInteira").click(function(){
+        $("div#dropdownInMenu").slideToggle(400);
     })
     //Scroll on click. NavBar
     $("a#navBox1").click(function(){ 

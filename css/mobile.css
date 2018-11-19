@@ -79,7 +79,7 @@
     }
         /* icone youtube */
     #videoIcon{
-        font-size: 100px;
+        font-size: 150px;
     }
     /* Sobre Os Autores */
     .about{
@@ -88,12 +88,13 @@
         grid-template-columns: 1fr;
         padding: 3%;
     }
-    img.imageUs{
-
-        margin-top: 30px;
-        height: 20vh;
+    #aboutText{
+        margin: 0 40px 0 40px;
     }
-
+    img.imageUs{
+        margin-top: 30px;
+        width: 16vh;
+    }
     /* Redes sociais */
     .socialMedia{
         display: grid;

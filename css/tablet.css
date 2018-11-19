@@ -64,7 +64,7 @@
         margin: 6vh 0 6vh 0;
     }
     #videoIcon{
-        font-size: 100px;
+        font-size: 130px;
     }
     /* Sobre os Autores */
     .about{
@@ -81,8 +81,12 @@
     div.aboutUs{
         margin: 0 5vw 0 0
     }
+    #aboutText{
+        margin-right: 50px;
+    }
     img.imageUs{
         margin-top: 50px;
+        width: 20vh;
     }
 
     /* Links para Contato */

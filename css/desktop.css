@@ -81,8 +81,12 @@
     div.aboutUs{
         margin: 0 5vw 0 0
     }
+    #aboutText{
+        margin-right: 40px;
+    }
     img.imageUs{
         margin-top: 80px;
+        width: 23vh;
     }
 
     /* Links para Contato */

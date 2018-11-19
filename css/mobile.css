@@ -22,7 +22,7 @@
     #dropdownInMenu{
         cursor: pointer;
         display: grid;
-        grid-template-rows:repeat(4,30px);
+        grid-template-rows:repeat(5,30px);
         grid-template-columns:auto;
     }
     #logoBack{
@@ -35,17 +35,35 @@
         left: 44%;
         transform: translate(-50% , -55%);
     }
-    /* Icons */
+
+    /* Icons Começo da página */
     .icons{
         display: grid;
         grid-template-rows: repeat(4,100px);
     }
-    /* Sobre */
-    .about{
-        display: grid;
-        grid-template-rows: repeat(2,350px);
-    }
 
+    /* Sobre Projeto da Focus */
+    .aboutProject{
+        display: grid;
+        grid-template-rows: 10vh 40vh 10vh; 
+        grid-template-columns: auto;
+    }
+    #projectText{
+        display: grid;
+        grid-template-rows: 10vh 15vh;
+        margin: 2vh 5vh 5vh 5vh;
+    }
+        /* Ícones 1-superior; 2-inferior */
+    #iconsProject1{
+        margin-top: 20px;
+    }
+    #iconsProject1,#iconsProject2{
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-around;
+        font-size: 4vh;
+    }
     /* Fotos */
     .album{
         display: grid;
@@ -53,10 +71,33 @@
         grid-template-columns: repeat(2,1fr);
         grid-gap: 5px;
     }
+    #videoPart{
+        display: grid;
+        grid-template-rows: 10vh 20vh;
+        grid-template-columns: auto;
+        margin-top: 5vh;
+    }
+        /* icone youtube */
+    #videoIcon{
+        font-size: 100px;
+    }
+    /* Sobre Os Autores */
+    .about{
+        display: grid;
+        grid-template-rows: repeat(4,30vh);
+        grid-template-columns: 1fr;
+        padding: 3%;
+    }
+    img.imageUs{
+
+        margin-top: 30px;
+        height: 20vh;
+    }
+
     /* Redes sociais */
     .socialMedia{
         display: grid;
-        grid-template-columns: repeat(2,auto);
+        grid-template-columns: repeat(2,1fr);
         grid-template-rows: repeat(3,100px);
     }
     .socialLink:nth-child(1){

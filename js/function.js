@@ -1,10 +1,20 @@
+
+var windowObjectReference;
+function openRequestedPopup() {
+  windowObjectReference = window.open(
+    "https://www.youtube.com/embed/3qSBPMjuVOU",
+    //"DescriptiveWindowName",
+    //"resizable,scrollbars,status"
+  );
+}
+
 //inciar o jQuery
 $(document).ready(function(){
     
     $("div#dropdownInMenu").hide(0);
-    $("a.btnMenu").click(function(){
-        $("div#dropdownInMenu").slideToggle(700);
-    })
+        $("a.btnMenu").click(function(){
+            $("div#dropdownInMenu").slideToggle(700);
+        })
     //Ao clicar em qualquer parte da pág esconde o menu
     $("div.pagInteira").click(function(){
         $("div#dropdownInMenu").slideUp(500);
@@ -16,14 +26,18 @@ $(document).ready(function(){
     });
     $("a#navBox2").click(function(){
         $("html,body").animate({                         
-            scrollTop: $(".about").offset().top},"slow");  
+            scrollTop: $(".aboutProject").offset().top},"slow");  
     });
     $("a#navBox3").click(function(){ 
         $("html,body").animate({                         
-            scrollTop: $(".album").offset().top},"slow"); 
+            scrollTop: $("#titleAlbum").offset().top},"slow"); 
     });
     $("a#navBox4").click(function(){
         $("html,body").animate({                         
-            scrollTop: $(".socialMidia").offset().top},"slow"); 
+            scrollTop: $("#criadores").offset().top},"slow"); 
+    });
+    $("a#navBox5").click(function(){
+        $("html,body").animate({                         
+            scrollTop: $(".socialMedia").offset().top},"slow"); 
     });
 })

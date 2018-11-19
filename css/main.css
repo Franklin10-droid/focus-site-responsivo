@@ -14,7 +14,9 @@
     --cor4: #A2E3C4;
     --cor5: #F0F7F4;
 }
-
+.navBar{
+    background-color: var(--cor2);
+}
 .navBox{
     background-color: var(--cor2);
     cursor: pointer;
@@ -46,7 +48,7 @@
     background-color: var(--cor5);
     mix-blend-mode: screen; /* vaza o texto */
 }
-
+/* ícones no começo e de redes sociais */
 i#iconInicio,#iconFim{
     color: var(--cor5);
 }
@@ -56,6 +58,9 @@ i#iconInicio,#iconFim{
 .frasesIcon{
     color: var(--cor5);
 }
+.icons{
+    background-color: var(--cor3);
+}
 #iconInicio{
     margin-top: 15px;
 }
@@ -64,6 +69,22 @@ i#iconInicio,#iconFim{
 }
 .iconDescr{
     color:var(--cor2);;
+}
+#titleAlbum{
+    width: 100%;
+    height: 10vh;
+    color: var(--cor3);      
+}
+#titleVideo{
+    color: var(--cor2);
+}
+#videoIcon{
+    cursor: pointer;
+    color: var(--cor3);
+    transition-duration: 250ms;
+}
+#videoIcon:hover{
+    color: var(--cor1);
 }
 .about{
     background-color: var(--cor5);
@@ -80,10 +101,28 @@ i#iconInicio,#iconFim{
     opacity: 0.8;
     background: var(--cor5);
 }
-.socialMedia{
-    background-color: var(--cor1);
+.redesContato{
+    background-color: var(--cor2);
+}
+#contatoTitle{
+    color: var(--cor5);
+}
+.iconDescr{
+    color: var(--cor5);
+}
+#iconFim{
+    color: var(--cor3);
+    transition-duration: 150ms;
+}
+#iconFim:hover{
+    color: var(--cor5);
+}
+#iconDescr{
+    color: var(--cor5)
 }
 #copyrightFooter{
+    background-color: var(--cor3);
+    color: var(--cor5);
     display:flex;
     flex-direction: row;
     justify-content: center;

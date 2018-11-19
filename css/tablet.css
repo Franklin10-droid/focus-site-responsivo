@@ -5,7 +5,7 @@
         display: grid;
         position: fixed;
         width: 100%;
-        grid-template-columns: repeat(4,auto); 
+        grid-template-columns: repeat(5,auto); 
         grid-template-rows: 30px;
     }
     .btnMenu{
@@ -27,12 +27,26 @@
         grid-template-columns: repeat(2,50fr);
     }
 
-    /* Bem Vindo/Sobre  */
-    .about{
+    /* Sobre Projeto Focus */
+    .aboutProject{
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 80vh;
-        grid-gap: 5px;
+        grid-template-rows: 15vh 40vh 15vh;
+    }
+    #projectText{
+        display: grid;
+        grid-template-rows: 10vh 15vh;
+        margin: 5vh 10vh 5vh 10vh;
+    }
+        /* Ícones 1-superior; 2-inferior */
+    #iconsProject1{
+        padding: 20px;
+    }
+    #iconsProject1,#iconsProject2{
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-around;
+        font-size: 4vh;
     }
 
     /* Coletânia de Fotos */
@@ -41,15 +55,41 @@
         grid-template-rows: repeat(4, 30vh);
         grid-template-columns: repeat(2,1fr); 
         grid-gap: 8px;
+        margin: 0 8px 0 8px;
+    }
+    #videoPart{
+        display: grid;
+        grid-template-rows: 10vh 20vh;
+        grid-template-columns: auto;
+        margin: 6vh 0 6vh 0;
+    }
+    #videoIcon{
+        font-size: 100px;
+    }
+    /* Sobre os Autores */
+    .about{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(2,40vh);
+        grid-gap: 10px;
+        padding: 2%;
+        margin: 0 25px 25px 25px;
+    }
+    .aboutNames{
+        margin: 10vh 5vh 0 0;
+    }
+    div.aboutUs{
+        margin: 0 5vw 0 0
+    }
+    img.imageUs{
+        margin-top: 50px;
     }
 
     /* Links para Contato */
-
     .socialMedia{
         display: grid;
-        grid-template-columns: repeat(3,auto);
+        grid-template-columns: repeat(3,1fr);
         grid-template-rows: repeat(2,100px);
-        grid-gap: 30px; 
     }
     .socialLink{
         margin: 0 30px 0 30px; 

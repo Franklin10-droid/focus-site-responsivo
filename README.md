@@ -4,5 +4,4 @@
 
 #Integrantes:
 
-Lucas Alexandre Pagliari
-Giovani Manoel da Silva
+Lucas Alexandre Pagliari / Giovani Manoel da Silva
